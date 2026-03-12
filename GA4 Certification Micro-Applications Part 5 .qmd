@@ -1,0 +1,88 @@
+---
+title: "Part 5 — GA4 Certification Exam (Google Analytics 4 Certification)"
+author: "Angelina Jao"
+date: today
+format:
+  html:
+    theme: darkly
+    toc: true
+    toc-depth: 4
+    toc-expand: 3
+    toc-title: "Table of Contents"
+    number-sections: false
+    self-contained: true
+    code-fold: true
+    code-tools: true
+    code-overflow: wrap
+    highlight-style: dracula
+    smooth-scroll: true
+    css: styles.css
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+# 1. Purpose
+
+> Demonstrate end-to-end GA4 competency by completing the official GA4 Certification exam and reflecting on your results in a way that supports your Culminating Experience Project (CEP).
+
+# 2. Eligibility / Preparation
+
+> Before attempting the exam, you should have completed:
+
+-   Part 1 (101), Part 2 (102), Part 3 (201), Part 4 (301) micro-applications.
+-   Use Quarto to document your work and address the prompt below. You will submit an HTML file.
+
+# 3. What to submit (in one document)
+
+## 3.1. Proof of completion (required)
+
+![A screenshot/PDF showing you passed the GA4 Certification (preferred)](r%20studio/images/img%2017.png)
+
+::: callout-tip
+Make sure your name (or account identifier) and completion/attempt evidence are visible. If needed, you may blur email address or other sensitive info.
+:::
+
+## 3.2. Exam reflection (required, \~250–400 words total)
+
+> Answer all prompts:
+
+### **Exam Reflection**
+
+**Results Summary**
+
+I passed the exam with a score of 90%, which I'm proud of overall. I think coming into taking the Certificate Exam, I was very confident, but getting a 90% showed a few areas where my understanding was a bit shakier than I realized.
+
+**Top 3 Most Challenging Topics**
+
+-   **Understanding GA4 data structure and scopes**\
+    distinguishing between user, session, event, and item scopes and knowing when each should be used.
+
+-   **Identifying dimensions vs. metrics vs. event parameters**\
+    recognizing the differences between descriptive attributes (dimensions), numerical measurements (metrics), and additional event details (parameters).
+
+-   **Choosing the correct reports or exploration techniques**\
+    knowing when to use tools like Free-form exploration, Funnel exploration, or standard GA4 reports to analyze user behavior.
+
+**Two Questions I Wish I Could Redo**
+
+1.  **Understanding the difference between user-level and session-level data in Google Analytics 4.\
+    **I would want to redo a question related to distinguishing when to use dimensions like first user source/medium versus session source/medium because it requires understanding how GA4 tracks acquisition differently at the user and session levels.
+2.  **Knowing which GA4 reports or exploration techniques to use for specific types of analysis.\
+    **I would redo a question about selecting the correct report or exploration method (such as funnel exploration, free-form exploration, or acquisition reports) because it involves understanding which tools are best for analyzing user behavior and conversion paths.
+
+**CEP Connection\
+**One change I will make to my Community Engagement Plan (CEP) is to use event-based tracking instead of session-based metrics. Before, I was measuring engagement with broad numbers like page views and time on the site. Now, I will track specific actions, such as form submissions, downloads, and video completions, as events tied to goals. This will give clearer data about if my audience is interacting with the content, and not just visiting the page.
+
+## 3.3. GA4 “readiness check” (required; CEP or Google demo)
+
+> Complete one of the following and include 1 screenshot as evidence:
+
+![Google Demo Route](r%20studio/images/img%2020.png)
+
+### 3.3.1. Option B (Google Demo): Using the demo account, identify one KPI and one supporting exploration/report, with a screenshot.
+
+> Include 2–3 sentences explaining why that KPI/report supports your project goal.
+
+This Funnel Exploration supports my project goal by visualizing the specific stages where users abandon the purchase process, such as the transition from adding shipping info to payment. By monitoring the Checkout Completion Rate, I can identify high-friction steps and recommend improvements to recover potentially lost revenue.
